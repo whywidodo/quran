@@ -1,0 +1,7 @@
+@font-face {
+  font-family: fontArab;
+  src: url("arabic-font.ttf");
+}
+.arab {
+  font-family: fontArab;
+}

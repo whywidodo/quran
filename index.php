@@ -10,27 +10,29 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row mb-2">
             <div class="col-12 bg-secondary">
-                <h5 class="text-center mt-2 pb-1 text-white">Selamat Datang di Quran Digital</h5>
+                <h5 class="text-center mt-5 pb-5 text-white">Selamat Datang di Quran Digital</h5>
             </div>
         </div>
-        <div class="row">
-            <div class="col-4">
-                <div class="row">
-                    <span class="divA"></span>
-                </div>
+        <div class="row g-mb-30">
+            <div class="col-lg-4 g-mb-40 g-mb-0--lg">
+                <ul class="list-unstyled mb-0 divA">
+
+                </ul>
             </div>
-            <div class="col-4">
-                <div class="row">
-                    <span class="divB"></span>
-                </div>
+
+            <div class="col-lg-4 g-mb-40 g-mb-0--lg">
+                <ul class="list-unstyled mb-0 divB">
+
+                </ul>
             </div>
-            <div class="col-4">
-                <div class="row">
-                    <span class="divC"></span>
-                </div>
+
+            <div class="col-lg-4">
+                <ul class="list-unstyled mb-0 divC">
+
+                </ul>
             </div>
         </div>
     </div>
