@@ -16,11 +16,11 @@ $.ajax({
             htA+='<a class="d-block link-surat" href="https://whywidodo.github.io/quran-native/surah.html?id='+surat_ke+'">';
             htA+='<div class="card mb-2">';
             htA+='<div class="row px-2" style="min-height: 120px;">';
-            htA+='<div class="col-2 justify-content-center align-self-center">'+ surat_ke +'</div>';
-            htA+='<div class="col-6 justify-content-center align-self-center"><div class="card-body" >'+ 
+            htA+='<div class="col-2 justify-content-center align-self-center text-center">'+ surat_ke +'</div>';
+            htA+='<div class="col-6 justify-content-center align-self-center">'+ 
                 nama_surat + ' ('+jumlah_surat+')' + '<br/>' + arti_surat
-                +'</div></div>';
-            htA+='<div class="col-4 justify-content-center align-self-center arab">'+ arabic +'</div>';
+                +'</div>';
+            htA+='<div class="col-4 justify-content-center align-self-center arab text-center">'+ arabic +'</div>';
             htA+='</div>';
             htA+='</div>';
             htA+='</a>';
@@ -35,11 +35,11 @@ $.ajax({
             htB+='<a class="d-block link-surat" href="https://whywidodo.github.io/quran-native/surah.html?id='+surat_ke+'">';
             htB+='<div class="card mb-2">';
             htB+='<div class="row px-2" style="min-height: 120px;">';
-            htB+='<div class="col-2 justify-content-center align-self-center">'+ surat_ke +'</div>';
-            htB+='<div class="col-6 justify-content-center align-self-center"><div class="card-body">'+ 
+            htB+='<div class="col-2 justify-content-center align-self-center text-center">'+ surat_ke +'</div>';
+            htB+='<div class="col-6 justify-content-center align-self-center">'+ 
                 nama_surat + ' ('+jumlah_surat+')' + '<br/>' + arti_surat
-                +'</div></div>';
-            htB+='<div class="col-4 justify-content-center align-self-center arab">'+ arabic +'</div>';
+                +'</div>';
+            htB+='<div class="col-4 justify-content-center align-self-center arab text-center">'+ arabic +'</div>';
             htB+='</div>';
             htB+='</div>';
             htB+='</a>';
@@ -54,11 +54,11 @@ $.ajax({
             htC+='<a class="d-block link-surat" href="https://whywidodo.github.io/quran-native/surah.html?id='+surat_ke+'">';
             htC+='<div class="card mb-2">';
             htC+='<div class="row px-2" style="min-height: 120px;">';
-            htC+='<div class="col-2 justify-content-center align-self-center">'+ surat_ke +'</div>';
-            htC+='<div class="col-6 justify-content-center align-self-center"><div class="card-body">'+ 
+            htC+='<div class="col-2 justify-content-center align-self-center text-center">'+ surat_ke +'</div>';
+            htC+='<div class="col-6 justify-content-center align-self-center">'+ 
                 nama_surat + ' ('+jumlah_surat+')' + '<br/>' + arti_surat
-                +'</div></div>';
-            htC+='<div class="col-4 justify-content-center align-self-center arab">'+ arabic +'</div>';
+                +'</div>';
+            htC+='<div class="col-4 justify-content-center align-self-center arab text-center">'+ arabic +'</div>';
             htC+='</div>';
             htC+='</div>';
             htC+='</a>';
