@@ -1,7 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
 @font-face {
   font-family: fontArab;
   src: url("arabic-font.ttf");
 }
 .arab {
   font-family: fontArab;
+}
+.link-nav {
+  text-decoration: none;
+  color: #444;
+}
+.link-nav:hover {
+  color: #43a047;
+}
+
+.link-surat {
+  text-decoration: none;
+  color: #444;
+}
+
+.link-surat:hover {
+  color: #222;
 }
