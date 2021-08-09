@@ -13,7 +13,7 @@ $.ajax({
             var jumlah_surat = detail['data'][i]['numberOfVerses'];
             var arabic = detail['data'][i]['name']['short'];
 
-            htA+='<a class="d-block link-surat" href="https://whywidodo.github.io/quran-native/surah.html?id='+surat_ke+'">';
+            htA+='<a class="d-block link-surat" href="./surah.html?id='+surat_ke+'">';
             htA+='<div class="card mb-2">';
             htA+='<div class="row px-2" style="min-height: 120px;">';
             htA+='<div class="col-2 justify-content-center align-self-center text-center">'+ surat_ke +'</div>';
@@ -32,7 +32,7 @@ $.ajax({
             var jumlah_surat = detail['data'][i]['numberOfVerses'];
             var arabic = detail['data'][i]['name']['short'];
 
-            htB+='<a class="d-block link-surat" href="https://whywidodo.github.io/quran-native/surah.html?id='+surat_ke+'">';
+            htB+='<a class="d-block link-surat" href="./surah.html?id='+surat_ke+'">';
             htB+='<div class="card mb-2">';
             htB+='<div class="row px-2" style="min-height: 120px;">';
             htB+='<div class="col-2 justify-content-center align-self-center text-center">'+ surat_ke +'</div>';
@@ -51,7 +51,7 @@ $.ajax({
             var jumlah_surat = detail['data'][i]['numberOfVerses'];
             var arabic = detail['data'][i]['name']['short'];
 
-            htC+='<a class="d-block link-surat" href="https://whywidodo.github.io/quran-native/surah.html?id='+surat_ke+'">';
+            htC+='<a class="d-block link-surat" href="./surah.html?id='+surat_ke+'">';
             htC+='<div class="card mb-2">';
             htC+='<div class="row px-2" style="min-height: 120px;">';
             htC+='<div class="col-2 justify-content-center align-self-center text-center">'+ surat_ke +'</div>';
