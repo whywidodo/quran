@@ -1,5 +1,5 @@
 $.ajax({
-    url: "https://api.quran.sutanlab.id/surah",
+    url: "https://api.quran.gading.dev/surah",
     type: "get",
     dataType: "json",
     success: function (detail) {

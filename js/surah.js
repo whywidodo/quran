@@ -2,7 +2,7 @@ let data = new URLSearchParams(window.location.search);
 let datax = data.get("id")
 if(datax==1){
     $.ajax({
-    url: 'https://api.quran.sutanlab.id/surah/'+datax,
+    url: 'https://api.quran.gading.dev/surah/'+datax,
     type: "get",
     dataType: "json",
     success: function (detail) {
@@ -35,7 +35,7 @@ if(datax==1){
     });
 }else{
     $.ajax({
-    url: 'https://api.quran.sutanlab.id/surah/'+datax,
+    url: 'https://api.quran.gading.dev/surah/'+datax,
     type: "get",
     dataType: "json",
     success: function (detail) {
